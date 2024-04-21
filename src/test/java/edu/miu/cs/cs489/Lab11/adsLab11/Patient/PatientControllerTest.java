@@ -63,8 +63,8 @@ public class PatientControllerTest {
         patient.setLastName("Doe");
         Patient patient2 = new Patient(); // Consider adding setter methods to populate the patient details
         patient.setPatNo(2L);
-        patient.setFirstName("Abel");
-        patient.setLastName("Seyoum");
+        patient.setFirstName("Diallo");
+        patient.setLastName("Mamadou");
         List<Patient> patients = List.of(patient, patient2);
 
         // Mocking
