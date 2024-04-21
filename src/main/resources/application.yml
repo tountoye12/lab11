@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/AdvantisDentalSurgeries
+    # Todo: use your own username and password
+    username: postgres
+    password: root1234
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
